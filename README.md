@@ -1,4 +1,5 @@
 # NER---Movie-Title-Extraction
 
-This repo contains an application of NLP, with NER model.The default NER model from spaCy package was adopted and the result was compared against a cutomized model. 
-The model was used to detect move and show titles from viewers survey responds. I have trained the model using few examples of entities. 
+This repository contains an NLP application based on the NER model. The result was compared to a customised model using the default NER model from the spaCy programme. The model was used to extract movie and television show titles from survey responses of viewers. I used a few examples of entities to train the model. 
+
+NER model accepts training data in list of tuples format. To create a trining set, I have used a spaCy NER Annotator tool from [spaCy NER Annotator](https://manivannanmurugavel.github.io/annotating-tool/spacy-ner-annotator/). 
